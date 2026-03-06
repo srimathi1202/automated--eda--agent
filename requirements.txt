@@ -1,0 +1,16 @@
+# ── Anthropic Claude API ──────────────────────────────
+# Get your key at: https://console.anthropic.com/
+ANTHROPIC_API_KEY=sk-ant-your-key-here
+
+# ── Email (Gmail SMTP) ────────────────────────────────
+# Use Gmail App Password NOT your regular password
+# Setup: Google Account → Security → 2FA → App Passwords
+EMAIL_SENDER=youremail@gmail.com
+EMAIL_PASSWORD=xxxx-xxxx-xxxx-xxxx
+EMAIL_RECIPIENT=recipient@example.com
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+
+# ── SendGrid (optional) ───────────────────────────────
+# Get your key at: https://sendgrid.com/
+SENDGRID_API_KEY=SG.your-key-here
